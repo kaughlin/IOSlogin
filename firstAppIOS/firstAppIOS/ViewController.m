@@ -35,10 +35,14 @@
     
 }
 - (IBAction)onClickLogin:(id)sender {
+    
     //called whenever login button is clicked
     if([self.username isEqualToString: [self.usernameTextField text]] && [self.password isEqualToString: [self.passwordTextField text]]){
         NSLog(@"succes");
         [self.loginNotify setText:@"Login succesfull"];
+        
+        // transition from first viewcontroller to next
+        [self performSegueWithIdentifier:@"segue" sender:self];
     }
     else{
         NSLog(@"Failure");

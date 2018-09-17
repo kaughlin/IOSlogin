@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1027A685214F5D12006C0B86 /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1027A684214F5D12006C0B86 /* ToDoViewController.m */; };
 		106BD3CD214DD8F6006E704F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 106BD3CC214DD8F6006E704F /* main.m */; };
 		106BD3D0214DD8F6006E704F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 106BD3CF214DD8F6006E704F /* AppDelegate.m */; };
 		106BD3D3214DD8F6006E704F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106BD3D2214DD8F6006E704F /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1027A683214F5D12006C0B86 /* ToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		1027A684214F5D12006C0B86 /* ToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
 		106BD3C8214DD8F6006E704F /* firstAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		106BD3CC214DD8F6006E704F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		106BD3CE214DD8F6006E704F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				106BD3CF214DD8F6006E704F /* AppDelegate.m */,
 				106BD3D1214DD8F6006E704F /* ViewController.h */,
 				106BD3D2214DD8F6006E704F /* ViewController.m */,
+				1027A683214F5D12006C0B86 /* ToDoViewController.h */,
+				1027A684214F5D12006C0B86 /* ToDoViewController.m */,
 				106BD3D4214DD8F6006E704F /* Main.storyboard */,
 				106BD3D7214DD8F6006E704F /* Assets.xcassets */,
 				106BD3D9214DD8F6006E704F /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1027A685214F5D12006C0B86 /* ToDoViewController.m in Sources */,
 				106BD3D3214DD8F6006E704F /* ViewController.m in Sources */,
 				106BD3D0214DD8F6006E704F /* AppDelegate.m in Sources */,
 				106BD3CD214DD8F6006E704F /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				106BD3F7214DD8F6006E704F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		106BD3F8214DD8F6006E704F /* Build configuration list for PBXNativeTarget "firstAppIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				106BD3FA214DD8F6006E704F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		106BD3FB214DD8F6006E704F /* Build configuration list for PBXNativeTarget "firstAppIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				106BD3FD214DD8F6006E704F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
