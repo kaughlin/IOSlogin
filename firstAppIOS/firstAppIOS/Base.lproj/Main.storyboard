@@ -104,6 +104,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fu-nm-vam">
+                                <rect key="frame" x="16" y="505" width="168" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log out"/>
+                                <connections>
+                                    <action selector="onClickLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="suj-wa-zIa"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1Pf-Et-Rg7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
